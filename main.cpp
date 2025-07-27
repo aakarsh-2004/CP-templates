@@ -1,5 +1,5 @@
-#include <bits/stdc++.h>
- 
+#include<bits/stdc++.h>
+
 using namespace std;
 
 void solve() {
@@ -7,7 +7,8 @@ void solve() {
 }
 
 int main() {
-    fastIO;
+    ios::sync_with_stdio(false);
+    cin.tie(NULL); 
 
     #ifndef ONLINE_JUDGE
         freopen("input.txt", "r", stdin);
@@ -15,12 +16,10 @@ int main() {
         freopen("error.txt", "w", stderr);
     #endif
 
-    ll t = 1;
+    int t = 1;
     cin >> t;
 
-    while (t--) {
+    while(t--) {
         solve();
     }
-
-    return 0;
 }
