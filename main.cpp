@@ -17,7 +17,7 @@ void solve() {
 }
 
 int32_t main() {
-    ios_base::sync_with_stdio(NULL);
+    ios_base::sync_with_stdio(false);
     cin.tie(NULL);
 
     #ifndef ONLINE_JUDGE
@@ -27,7 +27,8 @@ int32_t main() {
     #endif
 
     int t = 1;
-    cin >> t;
+    // cin >> t;
+
     while (t--) {
         solve();
     }
