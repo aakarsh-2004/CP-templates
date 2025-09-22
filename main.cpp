@@ -12,6 +12,7 @@ using namespace std;
 #define all(arr) arr.begin(), arr.end()
 #define sz(v) (int)v.size()
 
+
 void solve() {
     
 }
