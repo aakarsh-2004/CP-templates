@@ -4,6 +4,7 @@
         "*.ejs": "html",
         "chrono": "cpp",
         "vector": "cpp",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "ostream": "cpp"
     }
 }
