@@ -1,4 +1,5 @@
 #include<bits/stdc++.h>
+
 using namespace std;
 
 #ifndef ONLINE_JUDGE
@@ -11,6 +12,7 @@ using namespace std;
 #define nl endl
 #define all(arr) arr.begin(), arr.end()
 #define sz(v) (int)v.size()
+#define int long long
 
 
 void solve() {
@@ -28,7 +30,7 @@ int32_t main() {
     #endif
 
     int t = 1;
-    // cin >> t;
+    cin >> t;
 
     while (t--) {
         solve();
