@@ -12,28 +12,28 @@ using namespace std;
 #define nl endl
 #define all(arr) arr.begin(), arr.end()
 #define sz(v) (int)v.size()
-#define int long long
+
 
 void solve() {
-
+    
 }
- 
+
 int32_t main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
- 
+
     #ifndef ONLINE_JUDGE
         freopen("input.txt", "r", stdin);
         freopen("output.txt", "w", stdout);
         freopen("error.txt", "w", stderr);
     #endif
-        
+
     int t = 1;
     cin >> t;
- 
+
     while (t--) {
         solve();
     }
- 
+
     return 0;
 }

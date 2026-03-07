@@ -33,7 +33,7 @@ public:
         }
         curr -> strings_ending_here++;
     }
-
+    
     int countWordsEqualTo(const string& word) {
         TrieNode* curr = root;
 
