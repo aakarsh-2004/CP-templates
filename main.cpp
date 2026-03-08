@@ -14,8 +14,9 @@ using namespace std;
 #define sz(v) (int)v.size()
 #define int long long
 
-void solve() {
 
+void solve() {
+    
 }
  
 int32_t main() {
@@ -29,7 +30,7 @@ int32_t main() {
     #endif
         
     int t = 1;
-    cin >> t;
+    // cin >> t;
  
     while (t--) {
         solve();
