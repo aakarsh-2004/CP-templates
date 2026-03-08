@@ -14,7 +14,6 @@ using namespace std;
 #define sz(v) (int)v.size()
 #define int long long
 
-
 void solve() {
     
 }
