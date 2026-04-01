@@ -1,23 +1,22 @@
 class DSU {
-    vector<int> parent, rank, size;
+    vector<int> parent, size;
 
     public:
     DSU(int n) {
         parent.resize(n + 1, 0);
-        rank.resize(n + 1, 0);
         size.resize(n + 1, 1);
 
         for(int i = 0; i <= n; i++) parent[i] = i;
     }
 
-    int findUParent(int node) {
+    int find(int node) {
         if(node == parent[node]) return node;
 
-        return parent[node] = findUParent(parent[node]);
+        return parent[node] = find(parent[node]);
     }
 
-    bool unionBySize(int u, int v) {
-        int upu = findUParent(u), upv = findUParent(v);
+    bool unite(int u, int v) {
+        int upu = find(u), upv = find(v);
 
         if(upu == upv) return false;
 
