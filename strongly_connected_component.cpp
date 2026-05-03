@@ -25,7 +25,7 @@ void kosaraju() {
 	vis.assign(n + 1, 0);
 	component.resize(n + 1);
 
-	auto dfs1 = [&](auto&& self, int u) {
+	auto dfs1 = [&](auto&& self, int u) -> void {
 		vis[u] = 1;
 
 		for(auto v: adj[u]) {
@@ -35,7 +35,7 @@ void kosaraju() {
 		order.push_back(u);
 	};
 
-	auto dfs2 = [&](auto&& self, int u, int comp) {
+	auto dfs2 = [&](auto&& self, int u, int comp) -> void {
 		vis[u] = 1;
 		component[u] = comp;
 

@@ -27,9 +27,9 @@ int32_t main() {
         freopen("output.txt", "w", stdout);
         freopen("error.txt", "w", stderr);
     #endif
-        
+    
     int t = 1;
-    // cin >> t;
+    cin >> t;
  
     while (t--) {
         solve();
