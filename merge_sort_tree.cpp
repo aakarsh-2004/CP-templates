@@ -31,7 +31,7 @@ public:
     int query(int node, int nodeL, int nodeR, int queryL, int queryR, int k) {
         if(nodeR < queryL || nodeL > queryR) return 0;
         
-        if(nodeL >= queryL && nodeR <= queryR) {
+ṭ        if(nodeL >= queryL && nodeR <= queryR) {
             auto it = lower_bound(tree[node].begin(), tree[node].end(), k);
             return distance(tree[node].begin(), it);
         }
